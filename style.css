@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.divv{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2179573705/display_1500/stock-vector-let-s-go-travel-vacation-travel-motif-vector-illustration-2179573705.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+
+.div1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.head1{
+    flex:2;
+    margin: 20px;
+    color: Blue;
+}
+.nav1{
+    display: flex;
+    justify-content:space-around;
+    flex:1;   
+}
+.div2{
+    color:white;
+  padding-top: 180px;
+  padding-left: 50px;
+  width:400px;   
+}
+.head2{
+    font-size: 60px;
+}
+.b1{
+    color: rgb(104, 43, 226);
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.div4{
+    flex-direction: column;
+    border: 2px solid rgb(226, 46, 43);
+    align-items: center;
+    padding: 80px 100px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: green;
+    margin: auto;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#home{
+    margin: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
